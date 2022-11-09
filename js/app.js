@@ -19,5 +19,6 @@ const displayData = (data) => {
     // temp logo set with url 
     const url = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
     tempLogo.setAttribute('src', url)
-
+    // empty input feild 
+    input_feild.value = '';
 }
